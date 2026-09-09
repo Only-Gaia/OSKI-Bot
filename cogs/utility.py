@@ -205,7 +205,7 @@ class Utility(commands.Cog):
             ),
             color=discord.Color.gold()
         )
-        embed.set_footer(text="Fire security")
+        embed.set_footer(text="OSKI security")
         await ctx.send(embed=embed, view=VerifyView())
 
     # ---------- CONFIGURAZIONE RUOLI VERIFICA ----------
