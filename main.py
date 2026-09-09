@@ -24,6 +24,7 @@ COGS = [
     "levelling",
     "fun",
     "utility",
+    "ticket",
     "help",
 ]
 
