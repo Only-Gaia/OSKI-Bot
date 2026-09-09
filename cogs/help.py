@@ -85,6 +85,17 @@ CATEGORIES = {
             ("automodlogset <channel>", "🔒 Imposta il canale log automod"),
         ],
     },
+    "🎫 Ticket & Config": {
+        "emoji": "🎫",
+        "commands": [
+            ("supportpanel", "🔒 Crea il pannello ticket di assistenza"),
+            ("partnerpanel", "🔒 Crea il pannello ticket per le partnership"),
+            ("basepanel", "🔒 Crea il pannello ticket per le basi"),
+            ("mmpanel", "🔒 Crea il pannello ticket per le richieste MM"),
+            ("rolestaff <role>", "🔒 Aggiunge un ruolo staff pingato nei ticket (max 15)"),
+            ("roleremove <role>", "🔒 Rimuove un ruolo staff configurato"),
+        ],
+    },
     "⚙️ Utility": {
         "emoji": "⚙️",
         "commands": [
