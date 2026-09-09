@@ -1,0 +1,39 @@
+# ================= PYTHON =================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ================= AMBIENTI VIRTUALI =================
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ================= VARIABILI D'AMBIENTE / SEGRETI =================
+.env
+.env.local
+config_local.py
+
+# ================= DATI DEL BOT (NON committare i dati utenti) =================
+data_files/
+*.json
+!package.json
+
+# ================= LOG =================
+*.log
+logs/
+
+# ================= EDITOR / IDE =================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================= SISTEMA OPERATIVO =================
+.DS_Store
+Thumbs.db
+
+# ================= RAILWAY =================
+.railway/
